@@ -151,8 +151,6 @@ Just raise an issue, and we will discuss it.
 | <img src="https://github.com/Omc12.png" width="40" height="40"> **[Om Chimurkar](https://github.com/Omc12)** | Admin Expert | Admin Panel & File Multer |
 | <img src="https://github.com/pankaj-cod.png" width="40" height="40"> **[Pankaj](https://github.com/pankaj-cod)** | Logic Specialist | Global Context & Cart Logic |
 
-## Feedback
-
 If you have any feedback, please reach out to me [here](https://www.linkedin.com/in/muhammad-shan-full-stack-developer/)
 
 ## Design Progress
