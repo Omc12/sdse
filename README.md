@@ -151,7 +151,13 @@ Just raise an issue, and we will discuss it.
 | <img src="https://github.com/Omc12.png" width="40" height="40"> **[Om Chimurkar](https://github.com/Omc12)** | Admin Expert | Admin Panel & File Multer |
 | <img src="https://github.com/pankaj-cod.png" width="40" height="40"> **[Pankaj](https://github.com/pankaj-cod)** | Logic Specialist | Global Context & Cart Logic |
 
+## Feedback
+
 If you have any feedback, please reach out to me [here](https://www.linkedin.com/in/muhammad-shan-full-stack-developer/)
+
+## Design Patterns
+
+- **MVC Pattern**: The application follows the Model-View-Controller (MVC) architectural pattern to separate concerns. Models (e.g., `backend/models/userModel.ts`) handle data and business logic, Controllers (e.g., `backend/controllers/userController.ts`) manage application logic and user input, and Views (e.g., `frontend/src/components/`) handle the presentation layer. This promotes modularity, testability, and maintainability, aligning with SDLC best practices for scalable development.
 
 ## Design Progress
 

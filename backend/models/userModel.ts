@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 import { IUserDocument } from "../types.js";
+import { baseSchema } from "./baseModel.js";
 
 const userSchema = new mongoose.Schema(
   {
@@ -11,6 +12,9 @@ const userSchema = new mongoose.Schema(
   },
   { minimize: false }
 );
+
+// Extend base schema for timestamps
+userSchema.add(baseSchema);
 
 const userModel = mongoose.models.user || mongoose.model<IUserDocument>("user", userSchema);
 export default userModel;

@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 import { IOrder } from "../types.js";
+import { baseSchema } from "./baseModel.js";
 
 const orderSchema = new mongoose.Schema({
   userId: { type: String, required: true },
@@ -10,6 +11,9 @@ const orderSchema = new mongoose.Schema({
   date: { type: Date, default: Date.now() },
   payment: { type: Boolean, default: false },
 });
+
+// Extend base schema for timestamps
+orderSchema.add(baseSchema);
 
 const orderModel = mongoose.models.order || mongoose.model<IOrder>("order", orderSchema);
 
