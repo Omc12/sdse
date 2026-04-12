@@ -5,4 +5,3 @@ export const connectDB = async () => {
     .connect(process.env.MONGO_URL ?? "")
     .then(() => console.log("DB Connected"));
 };
-// DB config placeholder
