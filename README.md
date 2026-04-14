@@ -161,5 +161,3 @@ Backend on Render
 
 - **Adapter Pattern**
 - documented in docs/design.md
-
-TODO: add more descriptions later
