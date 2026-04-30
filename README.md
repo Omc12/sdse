@@ -15,6 +15,7 @@ This project presents TOMATO, a dynamic food ordering platform designed to provi
 ## Demo
 
 - https://sdse-inky.vercel.app/
+- https://food-delivery-admin-wrme.onrender.com/
 
 ## Features
 
